@@ -1,0 +1,9 @@
+{
+  "hosting": {
+    "site": "sourcr-daily-picker",
+    "public": "dist"
+  },
+  "database": {
+    "rules": "database.rules.json"
+  }
+}
