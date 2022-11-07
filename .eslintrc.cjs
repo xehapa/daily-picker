@@ -29,7 +29,8 @@ module.exports = {
   rules: {
     quotes: [2, "single", { avoidEscape: true }],
     indent: ["error", 2],
-    "comma-dangle": 0,
+    semi: [2, "always"],
+    "comma-dangle": ["error", "always"],
     "prettier/prettier": [
       "warn",
       {
@@ -38,6 +39,7 @@ module.exports = {
         trailingComma: "all",
         tabWidth: 2,
         useTabs: false,
+        semi: true,
       },
     ],
   },
